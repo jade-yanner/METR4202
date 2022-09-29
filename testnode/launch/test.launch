@@ -1,0 +1,5 @@
+<launch> 
+    <node pkg="testnode" name="test_node" type="test_publisher.py" output="screen"/>
+    <node pkg="testnode" name="ik_node" type="test_subscriber.py" output="screen"/>
+    <node pkg="testnode" name="dynamixel_node" type="test_dyna.py" output="screen"/>
+</launch>
